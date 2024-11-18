@@ -1,0 +1,72 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  <meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Screen</title>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .welcome-text {
+            font-size: 24px;
+            color: #fff;
+        }
+        .creator-text {
+            font-size: 32px;
+            font-weight: bold;
+            color: #8A2BE2;
+        }
+        .arrow-button {
+            margin-top: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #8A2BE2;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .arrow-button:hover {
+            background-color: #7B1FA2;
+        }
+        .arrow-button:focus {
+            outline: none;
+        }
+        .arrow {
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-text">Welcome to</div>
+        <div class="creator-text"></div>
+        <button class="arrow-button">
+            <span class="arrow">&rarr;</span>
+        </button>
+    </div>
+</body>
+</html>
